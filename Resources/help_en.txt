@@ -1,0 +1,37 @@
+Mouse and key combinations
+
+
+SYSTEM-WIDE
+
+Select screen area              - <PrtScr>
+Save screenshot to desktop      - <Shift> + <PrtScr>
+Show all clips                  - <Ctrl> + <PrtScr>
+Hide all clips                  - <Alt> + <PrtScr>
+
+
+ON SYSTEM TRAY ICON
+
+Menu                            - Mouse R
+Select screen area              - Double click
+
+
+ON SELECTION SCREEN
+
+Create clip                     - Mouse drag
+Save selection to desktop       - <Shift> + Mouse drag
+Cancel                          - Mouse R or <Esc>
+
+
+ON CLIP WINDOW
+
+Move clip                       - Mouse drag
+Drag & drop clip image          - <Ctrl> + Mouse drag
+Drag & drop and close clip      - <Shift> + Mouse drag
+Clip options                    - Mouse R
+Free resize                     - <Shift>
+Restore original size           - Double click
+
+
+ON CLIP MENU
+
+Rename clip                     - <Shift> + "Hide" option

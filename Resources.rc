@@ -1,0 +1,412 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Neutral resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_NEU)
+#ifdef _WIN32
+LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP_ABOUT        BITMAP  DISCARDABLE     "Release\\Untitled-1.bmp"
+#endif    // Neutral resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// German (Germany) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)
+#ifdef _WIN32
+LANGUAGE LANG_GERMAN, SUBLANG_GERMAN
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG_SETUP_DE DIALOG DISCARDABLE  0, 0, 222, 141
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Einstellungen"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,110,120,50,14
+    PUSHBUTTON      "Löschen",IDCANCEL,165,120,50,14
+    COMBOBOX        IDC_COMBO_LANG,55,15,110,50,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Sprache:",IDC_STATIC,5,5,210,10
+    LTEXT           "Standard Dateiformat:",IDC_STATIC,5,40,210,10
+    LTEXT           "Andere:",IDC_STATIC,5,85,210,10
+    CONTROL         "PNG (Emfohlen)",IDC_RADIO_PNG,"Button",
+                    BS_AUTORADIOBUTTON,55,50,160,10
+    CONTROL         "JPEG",IDC_RADIO_JPEG,"Button",BS_AUTORADIOBUTTON,55,65,
+                    160,10
+    CONTROL         "Das Programm dem Autostart hinzufügen",
+                    IDC_CHECK_INSTALL,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    55,95,160,10
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_DIALOG_SETUP_DE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 215
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 134
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_HELP                "Hilfe"
+    IDS_ABOUT               "Über..."
+    IDS_ON_TOP              "Nach oben"
+    IDS_SAVE                "Speichern..."
+    IDS_SAVE_CLIP           "Speichere Clip"
+    IDS_SAVE_DESKTOP        "Speichere Desktop..."
+    IDS_OPTIONS             "Einstellungen..."
+    IDS_HIDE                "Verstecke"
+    IDS_DELETE              "Lösche"
+    IDS_EXIT                "Ende"
+    IDS_SHOW_ALL            "Zeige alle"
+    IDS_HIDE_ALL            "Verstecke alle"
+    IDS_NEW                 "Neu"
+    IDS_ENTER_NAME          "Clip benennen"
+    IDS_SETUP_INSTALLED     "Bereits im Autostart vorhanden"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_INSTALL_QUESTION    "Zum Autostart hinzufügen?"
+    IDS_ERROR_INSTALL       "Fehler in der Installation"
+    IDS_ERROR_VERSION       "Diese Version ist abgelaufen.\nDie neueste Version unter http://lucianito.com.ar/"
+    IDS_ERROR_SETTINGS      "Einstellungen konnten nicht gespeichert werden"
+    IDS_LAST                " "
+END
+
+#endif    // German (Germany) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG_SETUP_EN DIALOG DISCARDABLE  0, 0, 222, 141
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Options"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,110,120,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,165,120,50,14
+    COMBOBOX        IDC_COMBO_LANG,55,15,110,50,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Language:",IDC_STATIC,5,5,210,10
+    LTEXT           "Default file type:",IDC_STATIC,5,40,210,10
+    LTEXT           "Other:",IDC_STATIC,5,85,210,10
+    CONTROL         "PNG (recommended)",IDC_RADIO_PNG,"Button",
+                    BS_AUTORADIOBUTTON,55,50,160,10
+    CONTROL         "JPEG",IDC_RADIO_JPEG,"Button",BS_AUTORADIOBUTTON,55,65,
+                    160,10
+    CONTROL         "Install program in startup items",IDC_CHECK_INSTALL,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,55,95,160,10
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_DIALOG_SETUP_EN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 215
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 134
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_HELP                "Help"
+    IDS_ABOUT               "About..."
+    IDS_ON_TOP              "On top"
+    IDS_SAVE                "Save..."
+    IDS_SAVE_CLIP           "Save clip"
+    IDS_SAVE_DESKTOP        "Save desktop..."
+    IDS_OPTIONS             "Options..."
+    IDS_HIDE                "Hide"
+    IDS_DELETE              "Delete"
+    IDS_EXIT                "Exit"
+    IDS_SHOW_ALL            "Show all"
+    IDS_HIDE_ALL            "Hide all"
+    IDS_NEW                 "New"
+    IDS_ENTER_NAME          "Enter clip name"
+    IDS_SETUP_INSTALLED     "Already installed in startup items"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_INSTALL_QUESTION    "Install in startup items?"
+    IDS_ERROR_INSTALL       "Installation error"
+    IDS_ERROR_VERSION       "This version has expired.\nGet latest at http://lucianito.com.ar/"
+    IDS_ERROR_SETTINGS      "Can't write settings"
+    IDS_LAST                " "
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Spanish (Castilian) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ESP)
+#ifdef _WIN32
+LANGUAGE LANG_SPANISH, SUBLANG_SPANISH
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG_SETUP_ES DIALOG DISCARDABLE  0, 0, 222, 141
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Opciones"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,110,120,50,14
+    PUSHBUTTON      "Cancelar",IDCANCEL,165,120,50,14
+    COMBOBOX        IDC_COMBO_LANG,55,15,110,50,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Lenguaje:",IDC_STATIC,5,5,210,10
+    LTEXT           "Tipo de archivo:",IDC_STATIC,5,40,210,10
+    LTEXT           "Otros:",IDC_STATIC,5,85,210,10
+    CONTROL         "PNG (recomendado)",IDC_RADIO_PNG,"Button",
+                    BS_AUTORADIOBUTTON,55,50,160,10
+    CONTROL         "JPEG",IDC_RADIO_JPEG,"Button",BS_AUTORADIOBUTTON,55,65,
+                    160,10
+    CONTROL         "Instalar programa en el inicio",IDC_CHECK_INSTALL,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,55,95,160,10
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_DIALOG_SETUP_ES, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 215
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 134
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_HELP                "Ayuda"
+    IDS_ABOUT               "Acerca..."
+    IDS_ON_TOP              "Por encima"
+    IDS_SAVE                "Guardar..."
+    IDS_SAVE_CLIP           "Guardar recorte"
+    IDS_SAVE_DESKTOP        "Guardar escritorio..."
+    IDS_OPTIONS             "Opciones..."
+    IDS_HIDE                "Esconder"
+    IDS_DELETE              "Borrar"
+    IDS_EXIT                "Salir"
+    IDS_SHOW_ALL            "Mostrar todos"
+    IDS_HIDE_ALL            "Esconder todos"
+    IDS_NEW                 "Nuevo"
+    IDS_ENTER_NAME          "Escriba el nombre del recorte"
+    IDS_SETUP_INSTALLED     "Ya está instalado en el inicio"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_INSTALL_QUESTION    "Instalar en el inicio?"
+    IDS_ERROR_INSTALL       "Error de instalación"
+    IDS_ERROR_VERSION       "Esta versión caducó.\nConsiga la última en http://lucianito.com.ar/"
+    IDS_ERROR_SETTINGS      "No se puede guardar la configuración"
+    IDS_LAST                " "
+END
+
+#endif    // Spanish (Castilian) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Spanish (Castilian) (unknown sub-lang: 0xB) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ESS)
+#ifdef _WIN32
+LANGUAGE LANG_SPANISH, 0xB
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON_SMALL          ICON    DISCARDABLE     "Release\\Glue_small.ico"
+IDI_ICON_LARGE          ICON    DISCARDABLE     "Release\\Glue.ico"
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,6,0,0
+ PRODUCTVERSION 1,6,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "000004b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "lucianito.com.ar\0"
+            VALUE "FileDescription", "Enhanced screen grabber\0"
+            VALUE "FileVersion", "1, 6, 0, 0\0"
+            VALUE "InternalName", "Pegotes\0"
+            VALUE "LegalCopyright", "Copyright © 2007 Luciano Iammarino\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "Pegotes.exe\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "Pegotes\0"
+            VALUE "ProductVersion", "1, 6, 0, 0\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x0, 1200
+    END
+END
+
+#endif    // !_MAC
+
+#endif    // Spanish (Castilian) (unknown sub-lang: 0xB) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

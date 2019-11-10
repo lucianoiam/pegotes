@@ -1,0 +1,34 @@
+Maus und Tastenfunktionen
+
+
+IMMER VERFÜGBARE FUNKTIONEN:
+
+Auswählmodus starten                                    - <Druck>/<PrtScr>
+Screenshot auf Desktop speichern                        - <Shift> + <Druck>/<PrtScr>
+Alle Clips anzeigen                                     - <Strg>/<Ctrl> + <Druck>/<PrtScr>
+Alle Clips verstecken                                   - <Alt> + <Druck>/<PrtScr>
+
+
+FUNKTIONEN ÜBER SYSTEM-TRAY-ICON:
+
+Menü                                                    - Rechte Maustaste
+Auswählmodus starten                                    - Doppelklick
+
+
+FUNKTIONEN IM AUSWAHLMODUS:
+
+Clip erstellen                                          - Mit der Maus Bereich markieren
+Clip erstellen und direkt auf dem Desktop speichern     - <Shift> + Mit der Maus Bereich markieren
+Abbrechen                                               - Rechte Maustaste oder <Esc>
+
+
+FUNKTIONEN IM CLIP-FENSTER/AUSWAHL:
+
+Clip verschieben                                        - Mit der Maus verschieben
+Clip an Ort verschieben/dort speichern                  - <Strg>/<Ctrl> + verschieben
+Clip an Ort verschieben/dort speichern und schließen    - <Shift> + verschieben
+Clip Optionen                                           - Rechte Maustaste
+Größe des Clips frei ändern                             - <Shift> + rechte untere Ecke ziehen
+Ursprüngliche Größe wiederherstellen                    - Doppelklick
+
+Clip benennen                                           - <Shift>, Rechtsklick auf Clip, dann "Verstecke" wählen

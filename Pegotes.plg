@@ -1,0 +1,94 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Pegotes - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x2c0a /fo"Release/Resources.res" /d "NDEBUG" "C:\Documents and Settings\Luciano\My Documents\My Designs\Pegotes\1.6\Resources.rc"" 
+Creating temporary file "C:\DOCUME~1\luciano\LOCALS~1\Temp\RSP88.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /I "inc" /I "." /D "UNICODE" /D "_UNICODE" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /FR"Release/" /Fp"Release/Pegotes.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Documents and Settings\Luciano\My Documents\My Designs\Pegotes\1.6\Capture.cpp"
+"C:\Documents and Settings\Luciano\My Documents\My Designs\Pegotes\1.6\Clip.cpp"
+"C:\Documents and Settings\Luciano\My Documents\My Designs\Pegotes\1.6\DropSource.cpp"
+"C:\Documents and Settings\Luciano\My Documents\My Designs\Pegotes\1.6\Locale.cpp"
+"C:\Documents and Settings\Luciano\My Documents\My Designs\Pegotes\1.6\Selection.cpp"
+"C:\Documents and Settings\Luciano\My Documents\My Designs\Pegotes\1.6\Settings.cpp"
+"C:\Documents and Settings\Luciano\My Documents\My Designs\Pegotes\1.6\TrayIcon.cpp"
+"C:\Documents and Settings\Luciano\My Documents\My Designs\Pegotes\1.6\Util.cpp"
+"C:\Documents and Settings\Luciano\My Documents\My Designs\Pegotes\1.6\WinMain.cpp"
+"C:\Documents and Settings\Luciano\My Documents\My Designs\Pegotes\1.6\WndShadow.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\luciano\LOCALS~1\Temp\RSP88.tmp" 
+Creating temporary file "C:\DOCUME~1\luciano\LOCALS~1\Temp\RSP89.tmp" with contents
+[
+gdiplus.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/Pegotes.pdb" /machine:I386 /out:"Release/Pegotes.exe" /libpath:"keydll3\release" 
+".\Release\Capture.obj"
+".\Release\Clip.obj"
+".\Release\DropSource.obj"
+".\Release\Locale.obj"
+".\Release\Selection.obj"
+".\Release\Settings.obj"
+".\Release\TrayIcon.obj"
+".\Release\Util.obj"
+".\Release\WinMain.obj"
+".\Release\WndShadow.obj"
+".\Release\Resources.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\luciano\LOCALS~1\Temp\RSP89.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+Capture.cpp
+Clip.cpp
+DropSource.cpp
+Locale.cpp
+Selection.cpp
+Settings.cpp
+TrayIcon.cpp
+Util.cpp
+WinMain.cpp
+WndShadow.cpp
+Linking...
+Creating temporary file "C:\DOCUME~1\luciano\LOCALS~1\Temp\RSP8B.tmp" with contents
+[
+/nologo /o"Release/Pegotes.bsc" 
+".\Release\Capture.sbr"
+".\Release\Clip.sbr"
+".\Release\DropSource.sbr"
+".\Release\Locale.sbr"
+".\Release\Selection.sbr"
+".\Release\Settings.sbr"
+".\Release\TrayIcon.sbr"
+".\Release\Util.sbr"
+".\Release\WinMain.sbr"
+".\Release\WndShadow.sbr"]
+Creating command line "bscmake.exe @C:\DOCUME~1\luciano\LOCALS~1\Temp\RSP8B.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+Creating temporary file "C:\DOCUME~1\luciano\LOCALS~1\Temp\RSP8C.bat" with contents
+[
+@echo off
+Release\upx Release\Pegotes.exe
+]
+Creating command line "C:\DOCUME~1\luciano\LOCALS~1\Temp\RSP8C.bat"
+Compress executable
+                       Ultimate Packer for eXecutables
+    Copyright (C) 1996,1997,1998,1999,2000,2001,2002,2003,2004,2005,2006
+UPX 2.03w       Markus Oberhumer, Laszlo Molnar & John Reiser    Nov 7th 2006
+
+        File size         Ratio      Format      Name
+   --------------------   ------   -----------   -----------
+    172032 ->     83968   48.81%    win32/pe     Pegotes.exe
+
+Packed 1 file.
+
+
+
+<h3>Results</h3>
+Pegotes.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

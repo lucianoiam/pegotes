@@ -1,0 +1,37 @@
+Combinaciones de teclas y mouse
+
+
+GLOBALES
+
+Elegir una porción de pantalla          - <ImprPant>
+Guardar pantalla en el escritorio       - <Shift> + <ImprPant>
+Mostrar todos los recortes              - <Ctrl> + <ImprPant>
+Esconder todos los recortes             - <Alt> + <ImprPant>
+
+
+EN EL ÍCONO DE LA BANDEJA DEL SISTEMA
+
+Menú                                    - Mouse D
+Elegir una porción de pantalla          - Doble clic
+
+
+EN LA PANTALLA DE SELECCIÓN
+
+Crear recorte                           - Arrastrar
+Guardar selección en el escritorio      - <Shift> + Arrastrar
+Cancelar                                - Mouse D o <Esc>
+
+
+EN EL RECORTE
+
+Mover recorte                           - Arrastrar
+Arrastrar y soltar imagen del recorte   - <Ctrl> + Arrastrar
+Arrastrar y soltar y borrar recorte     - <Shift> + Arrastrar
+Opciones del recorte                    - Mouse D
+Cambiar tamaño en forma libre           - <Shift>
+Volver al tamaño original               - Doble clic
+
+
+EN EL MENÚ DEL RECORTE
+
+Renombrar recorte                       - <Shift> + opción "Esconder"

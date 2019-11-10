@@ -1,0 +1,18 @@
+Pegotes 1.6 (c) 2007 Luciano Iammarino
+All Rights Reserved
+
+Permission to use, copy, and distribute this software for any
+purpose without fee is hereby granted, provided that the above
+copyright notice and this permission notice appear in all copies.
+
+THIS SOFTWARE IS BEING PROVIDED "AS IS", WITHOUT ANY EXPRESS OR IMPLIED
+WARRANTY. IN PARTICULAR, THE AUTHOR DOES MAKE ANY REPRESENTATION OR
+WARRANTY OF ANY KIND CONCERNING THE MERCHANTABILITY OF THIS SOFTWARE OR
+ITS FITNESS FOR ANY PARTICULAR PURPOSE.
+
+German translation by Martin Kath
+
+Portions Copyright (c) 2006 Perry Zhu
+
+Download latest version at
+http://lucianito.com.ar/
